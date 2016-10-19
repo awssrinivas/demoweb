@@ -26,7 +26,7 @@ public class UserTest {
 	@Test
 	public void testUsers() {
 		List<User> result = userService.findAllUsers();
-		assertEquals(7, result.size());
+		assertEquals(3, result.size());
 	}	
 		
 	@Before
